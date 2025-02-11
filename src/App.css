@@ -12,16 +12,22 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-/* src/App.css */
-.App {
-  font-family: sans-serif;
-  text-align: center;
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
 }
 
 button {
+  background-color: red;
+  color: white;
+  border: none;
   padding: 5px 10px;
-  margin-left: 5px;
+  cursor: pointer;
 }
+
+
 
 input {
   padding: 5px;

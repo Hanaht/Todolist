@@ -1,7 +1,7 @@
 // src/App.tsx
 import React from 'react';
-import './App.css';
 import TodoList from './component/ToDoList';
+import './styles.css';
 
 const App: React.FC = () => {
   return (
@@ -9,6 +9,6 @@ const App: React.FC = () => {
       <TodoList />
     </div>
   );
-}
+};
 
 export default App;
